@@ -9,7 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface MasterViewController : UITableViewController
+@property (nonatomic, retain) NSArray *newsNames;
+@property (nonatomic, retain) NSArray *newsAddresses;
 
+@property (strong, nonatomic) NSMutableArray *newsArray;
 
 @end
 

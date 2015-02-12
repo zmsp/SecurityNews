@@ -15,6 +15,11 @@
 		EF148E141A202FF40074C063 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF148E131A202FF40074C063 /* Images.xcassets */; };
 		EF148E171A202FF40074C063 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF148E151A202FF40074C063 /* LaunchScreen.xib */; };
 		EF148E231A202FF50074C063 /* SecurityNewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF148E221A202FF50074C063 /* SecurityNewsTests.m */; };
+		EF148E2F1A2302EA0074C063 /* cnet.png in Resources */ = {isa = PBXBuildFile; fileRef = EF148E2C1A2302EA0074C063 /* cnet.png */; };
+		EF148E301A2302EA0074C063 /* google.png in Resources */ = {isa = PBXBuildFile; fileRef = EF148E2D1A2302EA0074C063 /* google.png */; };
+		EF148E311A2302EA0074C063 /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = EF148E2E1A2302EA0074C063 /* default.png */; };
+		EF4178431A2C3F5500896C30 /* security.png in Resources */ = {isa = PBXBuildFile; fileRef = EF4178411A2C3F5500896C30 /* security.png */; };
+		EF4178441A2C3F5500896C30 /* threat.png in Resources */ = {isa = PBXBuildFile; fileRef = EF4178421A2C3F5500896C30 /* threat.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +48,11 @@
 		EF148E1C1A202FF50074C063 /* SecurityNewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecurityNewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF148E211A202FF50074C063 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF148E221A202FF50074C063 /* SecurityNewsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecurityNewsTests.m; sourceTree = "<group>"; };
+		EF148E2C1A2302EA0074C063 /* cnet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cnet.png; sourceTree = "<group>"; };
+		EF148E2D1A2302EA0074C063 /* google.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = google.png; sourceTree = "<group>"; };
+		EF148E2E1A2302EA0074C063 /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default.png; sourceTree = "<group>"; };
+		EF4178411A2C3F5500896C30 /* security.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = security.png; sourceTree = "<group>"; };
+		EF4178421A2C3F5500896C30 /* threat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = threat.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +111,11 @@
 		EF148E031A202FF40074C063 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EF4178411A2C3F5500896C30 /* security.png */,
+				EF4178421A2C3F5500896C30 /* threat.png */,
+				EF148E2C1A2302EA0074C063 /* cnet.png */,
+				EF148E2D1A2302EA0074C063 /* google.png */,
+				EF148E2E1A2302EA0074C063 /* default.png */,
 				EF148E041A202FF40074C063 /* Info.plist */,
 				EF148E051A202FF40074C063 /* main.m */,
 			);
@@ -205,7 +220,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF148E121A202FF40074C063 /* Main.storyboard in Resources */,
+				EF148E2F1A2302EA0074C063 /* cnet.png in Resources */,
 				EF148E171A202FF40074C063 /* LaunchScreen.xib in Resources */,
+				EF4178431A2C3F5500896C30 /* security.png in Resources */,
+				EF148E311A2302EA0074C063 /* default.png in Resources */,
+				EF4178441A2C3F5500896C30 /* threat.png in Resources */,
+				EF148E301A2302EA0074C063 /* google.png in Resources */,
 				EF148E141A202FF40074C063 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +438,7 @@
 				EF148E281A202FF50074C063 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF148E291A202FF50074C063 /* Build configuration list for PBXNativeTarget "SecurityNewsTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +447,7 @@
 				EF148E2B1A202FF50074C063 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

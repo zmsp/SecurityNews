@@ -9,6 +9,7 @@
 #import "DetailViewController.h"
 
 @interface DetailViewController ()
+@property (strong, nonatomic) IBOutlet UINavigationItem *detailTitle;
 
 @end
 
@@ -28,7 +29,23 @@
 - (void)configureView {
     // Update the user interface for the detail item.
     if (self.detailItem) {
-        self.detailDescriptionLabel.text = [self.detailItem description];
+        
+        
+        
+        NSDictionary *singleNews = self.detailItem;
+
+        
+        self.detailTitle.title = [singleNews valueForKey:@"Title"];
+        
+        
+        NSString *urlString = [singleNews valueForKey:@"URL"];
+        
+        NSURL *url = [NSURL URLWithString:urlString];
+        NSURLRequest *request = [NSURLRequest requestWithURL:url];
+        
+        [self.newsBrowser loadRequest:request];
+         
+        
     }
 }
 
